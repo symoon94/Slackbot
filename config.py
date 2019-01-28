@@ -6,14 +6,6 @@ channel = 'DFQ76S4LU'
 
 # Configure the time according to time format
 schedule = {
-    'workout': {
-		'time': '18:19',
-		'message': "worke out"
-	},
-	'coding': {
-		'time': '18:16',
-		'message': "code"
-	},
 	'attendance': {
 		'time': '08:10',
 		'message': "check the attendance"
@@ -30,10 +22,10 @@ schedule = {
 		'time': '08:40',
 		'message': "check the attendance"
 	},
-	'attendance': {
-		'time': '09:15',
-		'message': "check the attendance"
-	}
+	'coding': {
+		'time': '14:00',
+		'message': "code"
+	},
 }
 
 notify_before = [5,3,1]
