@@ -5,7 +5,6 @@ from slackclient import SlackClient
 
 
 token = config.token
-BASE_URL = config.BASE_URL
 notify_before = config.notify_before
 
 client = SlackClient(token)
@@ -30,8 +29,6 @@ def send_notification(body):
                     text=body,
                     username=config.username,
                     icon_emoji=':robot_face:')
-
-
 
 
 if client.rtm_connect() == True:
