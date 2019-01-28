@@ -32,7 +32,7 @@ def send_notification(body):
                     icon_emoji=':robot_face:')
 
 
-now = current_time()
+
 
 if client.rtm_connect() == True:
     print('Connected.')
@@ -41,8 +41,8 @@ if client.rtm_connect() == True:
             # check if the event body has time and message as key
             if 'time' not in body or 'message' not in body:
                 raise Exception(f"The event '{event}' doesn't contain the 'time' or 'message' or both as key.")
-
             time = body.get('time').strip()
+            now = current_time()
             print('time: \n', time, '\n now: ', now)
             notifiable = time_difference(time, now)
             print(notifiable)
