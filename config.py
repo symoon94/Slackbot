@@ -1,6 +1,6 @@
 BASE_URL = "https://slack.com/api/chat.postMessage"
 
-token = "xoxb-534400887794-533669205584-Aml56qd3vj2RsaO7Z4nff258"
+token = "YOUR TOKEN" # e.g. "xoxb-#%^#%^#%^"
 username = 'moonbot'
 channel = 'DFQ76S4LU'
 
@@ -19,7 +19,7 @@ schedule = {
 		'message': "check the attendance"
 	},
 	'attendance': {
-		'time': '08:40',
+		'time': '09:35',
 		'message': "check the attendance"
 	},
 	'coding': {
