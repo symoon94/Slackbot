@@ -1,8 +1,8 @@
 BASE_URL = "https://slack.com/api/chat.postMessage"
 
-token = "xoxp-534400887794-535463315079-534347918640-3d7aa24d628fb0799b09556404fbf6a7" # e.g. "xoxb-#%^#%^#%^"
-username = 'moonbot'
-channel = 'DFQ76S4LU'
+token = "Your Token" # e.g. "xoxb-#%^#%^#%^"
+username = "Your Username" # app name
+channel = "Your Channel"
 
 # Configure the time according to time format
 schedule = {
