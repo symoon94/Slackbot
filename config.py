@@ -10,15 +10,15 @@ schedule = {
 		'time': '08:10',
 		'message': "check attendance"
 	},
-	'attendance1': {
+	'attendance2': {
 		'time': '08:20',
 		'message': "check attendance"
 	},
-	'attendance1': {
+	'attendance3': {
 		'time': '08:30',
 		'message': "check attendance"
 	},
-	'attendance': {
+	'attendance4': {
 		'time': '08:40',
 		'message': "check attendance"
 	},
@@ -30,11 +30,15 @@ schedule = {
 		'time': '14:00',
 		'message': "code"
 	},
-	'attendance2': {
+	'attendance5': {
+		'time': '16:20',
+		'message': "check attendance"
+	},
+	'attendance6': {
 		'time': '16:30',
 		'message': "check attendance"
 	},
-	'attendance2': {
+	'attendance7': {
 		'time': '16:40',
 		'message': "check attendance"
 	}
