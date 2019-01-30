@@ -1,24 +1,24 @@
 BASE_URL = "https://slack.com/api/chat.postMessage"
 
-token = "Your Token" # e.g. "xoxb-#%^#%^#%^"
+token = "xoxp-534400887794-535463315079-534347918640-3d7aa24d628fb0799b09556404fbf6a7" # e.g. "xoxb-#%^#%^#%^"
 username = 'moonbot'
 channel = 'DFQ76S4LU'
 
 # Configure the time according to time format
 schedule = {
-	'attendance1': {
+	'attendance0': {
 		'time': '08:10',
 		'message': "check attendance"
 	},
-	'attendance2': {
+	'attendance1': {
 		'time': '08:20',
 		'message': "check attendance"
 	},
-	'attendance3': {
+	'attendance2': {
 		'time': '08:30',
 		'message': "check attendance"
 	},
-	'attendance4': {
+	'attendance3': {
 		'time': '08:40',
 		'message': "check attendance"
 	},
@@ -30,15 +30,15 @@ schedule = {
 		'time': '14:00',
 		'message': "code"
 	},
-	'attendance5': {
+	'attendance4': {
 		'time': '16:20',
 		'message': "check attendance"
 	},
-	'attendance6': {
+	'attendance5': {
 		'time': '16:30',
 		'message': "check attendance"
 	},
-	'attendance7': {
+	'attendance6': {
 		'time': '16:40',
 		'message': "check attendance"
 	}
